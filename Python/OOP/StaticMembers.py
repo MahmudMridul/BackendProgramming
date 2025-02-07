@@ -1,19 +1,20 @@
-class Dog:
+class Student:
     count = 0 #static variable
 
     def __init__(self, name):
         self.name = name
-        Dog.count += 1
+        Student.count += 1
 
     @staticmethod
     def current_count():
-        print(Dog.count)
+        print(Student.count)
 
-dog1 = Dog("dog1")
-dog2 = Dog("dog2")
+s1 = Student("s1")
+s2 = Student("s2")
+s3 = Student("s3")
 
-print(Dog.count)
+print(Student.count)
 # print(dog1.count) # also accessible with instance
 
-Dog.current_count()
+Student.current_count()
 # dog2.current_count() # also accessible with instance
