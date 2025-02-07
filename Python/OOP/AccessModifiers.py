@@ -26,6 +26,21 @@ class User:
         print("setting username through setter property")
         self._username = new_username
 
+    @password.setter
+    def password(self, new_pass):
+        if self.__is_valid_password():
+            self.__password = new_pass
+
+    def __is_valid_password(self): # private method
+        if len(self.__password) >= 6:
+            return True
+        return False
+
+
+
+
+
+
 user = User(name="user one", username="user.one", email="user.one@gmail.com", password="u53r1@")
 
 print(user.name)
@@ -40,3 +55,4 @@ print(user.password)
 
 user.username = "new.user.one"
 print(user.username)
+
