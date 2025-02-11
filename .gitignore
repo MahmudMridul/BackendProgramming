@@ -1,2 +1,5 @@
 Python/.venv/*
 Python/.idea/*
+Csharp/.vs/*
+Csharp/bin/*
+Csharp/obj/*
