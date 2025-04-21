@@ -1,4 +1,5 @@
-﻿using Csharp.OOP;
+﻿using Csharp.Func;
+using Csharp.OOP;
 
 namespace Csharp
 {
@@ -6,7 +7,7 @@ namespace Csharp
     {
         public static void Main(string[] args)
         {
-            Inheritance.Run();
+            FuncEx.Run();
         }
     }
 }
