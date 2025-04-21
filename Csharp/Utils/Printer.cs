@@ -35,15 +35,15 @@ namespace Csharp.Utils
 
             if (isComplexType)
             {
-                PrintObjectCollection(items, nameofItems);
+                PrintObjectCollection(items);
             }
             else
             {
-                PrintBuiltinTypeCollection(items, nameofItems);
+                PrintBuiltinTypeCollection(items);
             }
         }
 
-        public static void PrintBuiltinTypeCollection<T>(IEnumerable<T> items, string nameofItems = "")
+        public static void PrintBuiltinTypeCollection<T>(IEnumerable<T> items)
         {
             foreach (T item in items)
             {
@@ -52,7 +52,7 @@ namespace Csharp.Utils
             Console.WriteLine("\n");
         }
 
-        public static void PrintObjectCollection<T>(IEnumerable<T> items, string nameofItems = "")
+        public static void PrintObjectCollection<T>(IEnumerable<T> items)
         {
             foreach (T item in items)
             {
