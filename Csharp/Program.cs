@@ -1,5 +1,6 @@
 ﻿using Csharp.Func;
 using Csharp.OOP;
+using Csharp.Predicate;
 
 namespace Csharp
 {
@@ -7,7 +8,7 @@ namespace Csharp
     {
         public static void Main(string[] args)
         {
-            FuncEx.Run();
+            PredicateExample.Run();
         }
     }
 }
