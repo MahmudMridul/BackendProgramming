@@ -91,6 +91,7 @@ namespace Csharp.Utils
                 sb.Append(" }");
                 Console.WriteLine(sb.ToString());
             }
+            Console.WriteLine();
         }
 
     }
