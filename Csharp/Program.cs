@@ -1,4 +1,5 @@
-﻿using Csharp.Func;
+﻿using Csharp.Action;
+using Csharp.Func;
 using Csharp.OOP;
 using Csharp.Predicate;
 
@@ -8,7 +9,7 @@ namespace Csharp
     {
         public static void Main(string[] args)
         {
-            PredicateExample.Run();
+            ActionExample.Run();
         }
     }
 }
